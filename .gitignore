@@ -1,0 +1,32 @@
+# ---- Datasets ----
+qm9_data/
+data/
+tiles/
+porosity_runs/
+*.zip
+*.tar
+*.tar.gz
+*.csv
+
+# ---- Raw images (SEM tiles etc.) ----
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+# but keep figures you deliberately put in a figures/ folder
+!figures/
+!figures/**
+
+# ---- Trained models ----
+*.pt
+*.pth
+*.ckpt
+
+# ---- Jupyter / Python clutter ----
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# ---- Mac clutter ----
+.DS_Store
